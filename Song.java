@@ -36,7 +36,7 @@ public class Song{
 
     public static void main(String[] args){
 
-        File file = new File("lyrics.txt");
+        File file = new File("/Users/josh/IdeaProjects/SongLyrics/src/lyrics");
         try{
             Scanner sc = new Scanner(file);
             String lyrics;
